@@ -5,7 +5,7 @@
 
 La paciente Olivia Herrera Andrade acude a una cita médica el día 06 de julio de 2023 con los resultados de exámenes de laboratorio solicitados en una cita médica anterior. 
 La paciente se atiende con el doctor Franco Moreno Pineda, quien es médico con especialidad general y atiende dentro del Centro Médico Las Aguilas.
-El médico inicia la consulta médica a las 17:15 hrs y en el proceso revisa los resultados de exámenes y encuentra deficiencia de vitamina D. Con este resultado el médico registra en la ficha el diagnóstico de Deficiencia Vitamina D.
+El médico inicia la consulta médica a las 17:15 hrs y en el proceso revisa los resultados de exámenes encontrando deficiencia de vitamina D. Con este resultado el médico registra en la ficha el diagnóstico de Deficiencia Vitamina D.
 El médico concluye la atención prescribiendo un suplemento vitamínico y exposición solar.
 
 Los datos que se manejan en el contexto de este caso de uso son:
