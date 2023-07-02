@@ -12,6 +12,7 @@ Los datos que se manejan en el contexto de este caso de uso son:
 * Olivia Herrera Andrade, RUN: 12.156.874-K, nacionalidad chilena, nacida el 25-01-1980. Reside en calle Los Volcanes, la Union, Región de los Ríos. Vive con su esposo Ismael Carrasco Isla, telefono de contacto +5696457364.
 * El Centro Medíco Las Aguilas posee dos locaciones para las atenciones médicas: La Unión y Osorno.
 * El médico, RUN 11.548.625-8, y es médico general acreditado en los registros de la Superintendencia de Salud
+* El resultado del exámen 25-hidroxi vitamina D es: 30 nmol/L (12 ng/mL)
 * El detalle de la prescripción médica indica 50.000UI colecalciferol, 1 sobre a la semana por 2 meses
 * La codificación del diagnóstico se debe expresar usando la terminologías SnomedCT.
 
