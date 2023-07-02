@@ -1,5 +1,4 @@
-# curso-fhir-2023
-Curso FHIR 2023, Recursos - Busquedas - Operaciones
+# Curso FHIR 2023, Recursos - Busquedas - Operaciones #
 
 # Uso de Recursos FHIR #
 ## Caso de Uso ##
