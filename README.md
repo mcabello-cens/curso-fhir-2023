@@ -10,8 +10,7 @@ El médico concluye la atención prescribiendo un suplemento vitamínico y expos
 
 Los datos que se manejan en el contexto de este caso de uso son:
 * Olivia Herrera Andrade, RUN: 12.156.874-K, nacionalidad chilena, nacida el 25-01-1980. Reside en calle Los Volcanes, la Union, Región de los Ríos. Vive con su esposo Ismael Carrasco Isla, telefono de contacto +5696457364.
-* El Centro Medíco Las Aguilas se ubica en Av. Carrera, 123, Osorno.
-* El Centro Médico de la comuna de Osorno se ubica en avenida Los Ríos 254, comuna de Osorno, Región de los Lagos, teléfono de contacto +5664574900,
+* El Centro Médico Las Águilas se ubica en Avenida Los Ríos 254,  Osorno, Región de los Lagos, teléfono de contacto +5664574900,
 * El médico, RUN 11.548.625-8, y es médico general acreditado en los registros de la Superintendencia de Salud
 * El resultado del exámen 25-hidroxi vitamina D es: 30 nmol/L (12 ng/mL)
 * El detalle de la prescripción médica indica 50.000UI colecalciferol, 1 sobre a la semana por 2 meses. El identificador del medicamento es 108943009 de la terminología SnomedCT.
