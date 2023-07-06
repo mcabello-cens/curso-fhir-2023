@@ -14,7 +14,7 @@ Los datos que se manejan en el contexto de este caso de uso son:
 * El Centro Médico de la comuna de Osorno se ubica en avenida Los Ríos 254, comuna de Osorno, Región de los Lagos, teléfono de contacto +5664574900,
 * El médico, RUN 11.548.625-8, y es médico general acreditado en los registros de la Superintendencia de Salud
 * El resultado del exámen 25-hidroxi vitamina D es: 30 nmol/L (12 ng/mL)
-* El detalle de la prescripción médica indica 50.000UI colecalciferol, 1 sobre a la semana por 2 meses
+* El detalle de la prescripción médica indica 50.000UI colecalciferol, 1 sobre a la semana por 2 meses (https://browser.ihtsdotools.org/?perspective=full&conceptId1=108943009&edition=MAIN/SNOMEDCT-ES/2023-04-30&release=&languages=es,en)
 * La codificación del diagnóstico se debe expresar usando la terminologías SnomedCT.
 
 # Objetivo: #
