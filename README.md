@@ -63,6 +63,13 @@ Vía oral"	|
 </details>
 
 
+
+<details><summary>Mapeo de recursos FHIR</summary>
+
+
+</details>
+
+
 ## 2. Identificar entidades en la narrativa y contrastar con la especificación ##
 
 * Patient
