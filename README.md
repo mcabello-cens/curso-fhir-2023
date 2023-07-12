@@ -78,6 +78,7 @@ Vía oral"	|
 * Encounter
 * DiagnosticReport
 * Observation
+* Bundle de Tipo Transaction
 
 
 ## 3. Generar el modelo de recursos ##
