@@ -1,6 +1,13 @@
 {
     "resourceType": "Location",
     "id": "loc-001",
+    "identifier": [
+        {
+            "use": "official",
+            "system": "http://cm-las-aguilas.cl",
+            "value": "CM-12345"
+        }
+    ],
     "status": "active",
     "name": "Centro Médico Las Aguilas",
     "address": {
