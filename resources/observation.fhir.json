@@ -1,0 +1,41 @@
+{
+    "resourceType": "Observation",
+    "status": "final",
+    "category": [
+        {
+            "coding": [
+                {
+                    "code": "laboratory",
+                    "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+                }
+            ]
+        }
+    ],
+    "code": {
+        "coding": [
+            {
+                "code": "1989-3",
+                "display": "25-hydroxyvitamin D3 [Mass/volume] in Serum or Plasma",
+                "system": "http://loinc.org"
+            }
+        ]
+    },
+    "subject": {"reference": "Patient/pat-001", "display": "Olivia Herrera Andrade"},
+    "effectiveDateTime": "",
+    "performer": [{"reference": "Practitioner/prac-001", "display": "Franco Moreno Pineda"}],
+    "valueQuantity": {},
+    "interpretation": [{
+        "coding": [{
+            "code": "low", "display": "Low", "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
+        }
+    ]
+    }],
+    "referenceRange": [{
+        "low": {
+            "value": 0
+        },
+        "high": {
+            "value": 0
+        }
+    }]
+}

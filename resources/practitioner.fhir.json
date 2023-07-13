@@ -1,0 +1,25 @@
+{
+    "resourceType": "Practitioner",
+    "id": "pra-001",
+    "identifier": [
+        {
+            "use": "official",
+            "system": "http://registrocivil.cl/personas",
+            "value": "11.548.625-8"
+        },
+        {
+            "use": "official",
+            "system": "http://supersalud.gov.cl/prestadores",
+            "value": "112233"
+        }
+    ],
+    "active": true,
+    "name": [
+        {
+            "use": "official",
+            "text": "Francisco Moreno",
+            "family": "Moreno",
+            "given": ["Francisco"]
+        }
+    ]
+}

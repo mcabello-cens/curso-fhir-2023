@@ -1,0 +1,52 @@
+{
+    "resourceType": "Patient",
+    "id": "pat-001",
+    "identifier": [
+        {
+            "use": "official",
+            "system": "http://registrocivil.cl/personas",
+            "value": "12.156.874-K"
+        }
+    ],
+    "active": true,
+    "maritalStatus": {
+        "coding": [
+            {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+                "code": "M",
+                "display": "Married"
+            }
+        ]
+    },
+    "name": [
+        {
+            "use": "official",
+            "text": "Olivia Herrera Andrade",
+            "family": "Herrera",
+            "given": [
+                "Olivia"
+            ]
+        }
+    ],
+    "contact": [
+        {
+            "name": {
+                "use": "official",
+                "text": "Ismael Carrasco Isla",
+                "family": "Carrasco",
+                "given": [
+                    "Ismael"
+                ]
+            },
+            "telecom": [
+                {
+                    "system": "phone",
+                    "value": "+5664574900",
+                    "use": "home"
+                }
+            ]
+        }
+    ],
+    "birthDate": "1980-01-25",
+    "gender": "female"
+}

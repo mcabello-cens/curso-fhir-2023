@@ -1,0 +1,15 @@
+{
+    "resourceType": "Location",
+    "id": "loc-001",
+    "status": "active",
+    "name": "Centro Médico Las Aguilas",
+    "address": {
+        "type": "physical",
+        "text": "Avenida Los Ríos 254,  Osorno, Región de los Lagos",
+        "line": ["Avenida", "Los Ríos", "254"],
+        "city": "Osorno",
+        "district": "Provincia de Osorno",
+        "state": "Región de Los Lagos"
+
+    }
+}

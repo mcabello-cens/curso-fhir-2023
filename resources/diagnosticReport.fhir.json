@@ -1,0 +1,51 @@
+{
+    "resourceType": "DiagnosticReport",
+    "id": "diag-001",
+    "status": "registered",
+    "category": [
+        {
+            "coding": [
+                {
+                    "code": "LAB",
+                    "system": "http://hl7.org/fhir/ValueSet/diagnostic-service-sections",
+                    "display": "Laboratory"
+                }
+            ]
+        }
+    ],
+    "code": {
+        "coding": [
+            {
+                "code": "62292-8",
+                "system": "http://loinc.org",
+                "display": "25-Hydroxyvitamin D3+25-Hydroxyvitamin D2 [Mass/volume] in Serum or Plasma"
+            }
+        ]
+    },
+    "subject": {
+        "reference": "Patient/pat-001",
+        "display": "Olivia Herrera Andrade"
+    },
+    "result": [{
+        "reference": "Observation/obs-001"
+    }],
+    "effectiveDateTime": "2023-07-06",
+    "performer": [
+        {
+            "reference": "Practitioner/pra-001",
+            "display": "Franco Moreno Pineda"
+        }
+    ],
+    "conclusion": "se detecta en examenes de sangre la deficiencia de Vitamina D",
+    "conclusionCode": [
+        {
+            "coding": [
+                {
+                    "code": "34713006",
+                    "system": "http://snomed.info/sct",
+                    "display": "hipovitaminosis D"
+                }
+            ]
+        }
+    ]
+}

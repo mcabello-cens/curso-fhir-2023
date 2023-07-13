@@ -1,0 +1,34 @@
+{
+    "resourceType": "MedicationRequest",
+    "id": "mrq-001",
+    "status": "active",
+    "priority": "routine",
+    "medication":
+        {
+            "reference": {
+                "reference": "Medication/123",
+                "display": "colecalciferon 50.000 UI sobre"
+            }
+        },
+    "subject": {
+        "reference": "Patient/pat-001"
+    },
+    "requester": {
+            "reference": "Practitioner/pra-001"
+        }
+    ,
+    "authoredOn": "2023-06-06",
+    "dosageInstruction": [
+        {
+            "sequence": 1,
+            "text": "1 sobre a la semana durante 2 meses",
+            "route": [
+                {
+                    "code": "26643006",
+                    "system": "http://snomed.info/sct",
+                    "display": "Oral route"
+                }
+            ]
+        }
+    ]
+}
