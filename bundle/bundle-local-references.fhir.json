@@ -1,0 +1,185 @@
+{
+    "resourceType": "Bundle",
+    "id": "bundle-transaction",
+    "type": "transaction",
+    "entry": [
+        {
+            "fullUrl": "urn:uuid:d9cfb896-0360-49e6-acaf-d12035ab594b",
+            "resource": {
+                "resourceType": "Patient",
+                "id": "pat-001",
+                "identifier": [
+                    {
+                        "use": "official",
+                        "system": "http://registrocivil.cl/personas",
+                        "value": "12.156.874-K"
+                    }
+                ],
+                "active": true,
+                "maritalStatus": {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+                            "code": "M",
+                            "display": "Married"
+                        }
+                    ]
+                },
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Olivia Herrera Andrade",
+                        "family": "Herrera",
+                        "given": [
+                            "Olivia"
+                        ]
+                    }
+                ],
+                "contact": [
+                    {
+                        "name": {
+                            "use": "official",
+                            "text": "Ismael Carrasco Isla",
+                            "family": "Carrasco",
+                            "given": [
+                                "Ismael"
+                            ]
+                        },
+                        "telecom": [
+                            {
+                                "system": "phone",
+                                "value": "+5664574900",
+                                "use": "home"
+                            }
+                        ]
+                    }
+                ],
+                "birthDate": "1980-01-25",
+                "gender": "female"
+            },
+            "request": {
+                "method": "POST",
+                "url": "Patient"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:e421a9b3-8375-49b3-9424-302f1f7da773",
+            "resource": {
+                "resourceType": "Practitioner",
+                "id": "pra-001",
+                "identifier": [
+                    {
+                        "use": "official",
+                        "system": "http://registrocivil.cl/personas",
+                        "value": "11.548.625-8"
+                    },
+                    {
+                        "use": "official",
+                        "system": "http://supersalud.gov.cl/prestadores",
+                        "value": "112233"
+                    }
+                ],
+                "active": true,
+                "name": [
+                    {
+                        "use": "official",
+                        "text": "Francisco Moreno",
+                        "family": "Moreno",
+                        "given": [
+                            "Francisco"
+                        ]
+                    }
+                ]
+            },
+            "request": {
+                "method": "POST",
+                "url": "Practitioner"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:952a86d6-e253-46f9-87c1-d3cd5505b46a",
+            "resource": {
+                "resourceType": "Location",
+                "id": "loc-001",
+                "identifier": [
+                    {
+                        "use": "official",
+                        "system": "http://cm-las-aguilas.cl",
+                        "value": "CM-12345"
+                    }
+                ],
+                "status": "active",
+                "name": "Centro Médico Las Aguilas",
+                "address": {
+                    "type": "physical",
+                    "text": "Avenida Los Ríos 254,  Osorno, Región de los Lagos",
+                    "line": [
+                        "Avenida",
+                        "Los Ríos",
+                        "254"
+                    ],
+                    "city": "Osorno",
+                    "district": "Provincia de Osorno",
+                    "state": "Región de Los Lagos"
+                }
+            },
+            "request": {
+                "method": "POST",
+                "url": "Location"
+            }
+        },
+        {
+            "fullUrl": "urn:uuid:f980b02b-3754-442d-9a6c-de0fc7921493",
+            "resource": {
+                "resourceType": "Encounter",
+                "id": "enc-001",
+                "status": "in-progress",
+                "class": [
+                    {
+                        "coding": [
+                            {
+                                "code": "AMB",
+                                "system": "https://terminology.hl7.org/5.1.0/CodeSystem-v3-ActCode.html",
+                                "display": "Ambulatory"
+                            }
+                        ]
+                    }
+                ],
+                "priority": {
+                    "coding": [
+                        {
+                            "code": "R",
+                            "display": "routine",
+                            "system": "http://terminology.hl7.org/CodeSystem/v3-ActPriority"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:d9cfb896-0360-49e6-acaf-d12035ab594b",
+                    "display": "Olivia Herrera Andrade"
+                },
+                "participant": [
+                    {
+                        "actor": {
+                            "reference": "urn:uuid:e421a9b3-8375-49b3-9424-302f1f7da773",
+                            "display": "Franco Moreno Pineda"
+                        }
+                    }
+                ],
+                "location": [
+                    {
+                        "location": {
+                            "reference": "urn:uuid:952a86d6-e253-46f9-87c1-d3cd5505b46a",
+                            "display": "Centro Médico Las Aguilas"
+                        }
+                    }
+                ],
+                "plannedStartDate": "2023-06-06T17:15:00.000Z"
+            },
+            "request": {
+                "method": "POST",
+                "url": "Encounter"
+            }
+        }
+    ]
+}
