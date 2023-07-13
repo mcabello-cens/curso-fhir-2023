@@ -129,3 +129,4 @@ Vía oral"	|
 
 ## 3. Generar el modelo de recursos ##
 
+![Modelo de Recursos](https://github.com/mcabello-cens/curso-fhir-2023/blob/main/modelo-clinfhir.png)
