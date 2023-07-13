@@ -67,6 +67,52 @@ Vía oral"	|
 <details><summary>Mapeo de recursos FHIR</summary>
 
 
+|	Name	|	Card.	|	Valor	|
+|	---	|	---	|	---	|
+|	 Patient	|		|		|
+|	 identifier	|	1..1	|		|
+|	identifier.use	|	1..1	|	official	|
+|	identifier.value	|	1..1	|	12.156.874-K	|
+|	identifier.system	|	1..1	|	http://registrocivil.cl/personas	|
+|	 active	|	1..1	|	true	|
+|	 name	|	0..*	|		|
+|	name.given	|	1..2	|	Olivia	|
+|	name.family	|	1..1	|		|
+|	name.extension.fatherFamily	|	1..1	|	Herrera	|
+|	name.extension.motherFamily	|	0..1	|	Andrade	|
+|	 telecom	|		|		|
+|	 gender	|	1..1	|	female	|
+|	 birthDate	|	1..1	|	25-01-1980	|
+|	 deceased[x]	|		|		|
+|	 address	|	1..1	|		|
+|	address.use	|	1..1	|	home	|
+|	address.type	|	1..1	|	physical	|
+|	address.line	|	1..1	|	Los Volcanes 886, La Unión, Región de Los Ríos	|
+|	address.city	|	1..1	|	Osorno	|
+|	address.district	|		|		|
+|	address.state	|	1..1	|	Región de Los Lagos	|
+|	 maritalStatus	|		|		|
+|	maritalStatus.coding.code	|	1..1	|	M	|
+|	maritalStatus.coding.display	|	1..1	|	Married	|
+|	maritalStatus.coding.system	|	1..1	|	http://terminology.hl7.org/CodeSystem/v3-MaritalStatus	|
+|	 ~~photo~~	|		|		|
+|	 contact	|	0..*	|		|
+|	contact.relationship.coding.code	|	1..1	|	CP	|
+|	contact.relationship.coding.display	|	1..1	|	Contact Person	|
+|	contact.relationship.coding.system	|	1..1	|	http://terminology.hl7.org/CodeSystem/v2-0131	|
+|	contact.relationship.use	|	1..1	|	official	|
+|	contact.name.given	|	1..1	|	Ismael	|
+|	contact.name.extension.fatherFamily	|	1..1	|	Carrasco	|
+|	contact.name.extension.motherFamily	|	1..1	|	Isla	|
+|	contact.telecom.use	|	1..1	|	home	|
+|	contact.telecom.system	|	1..1	|	phone	|
+|	contact.telecom.value	|	1..1	|	+5696457364	|
+|	~~communication~~	|		|		|
+|	~~link~~	|		|		|
+
+
+
+
 </details>
 
 
