@@ -6,22 +6,23 @@
         {
             "fullUrl": "urn:uuid:d9cfb896-0360-49e6-acaf-d12035ab594b",
             "resource": {
-                // recurso Paciente
+                // recurso Patient
             },
             "request": {
-                "method": "PUT",
-                "url": "Patient/pat-001"
+                "method": "POST",
+                "url": "Patient"
             }
         },
         {
             "fullUrl": "urn:uuid:e421a9b3-8375-49b3-9424-302f1f7da773",
             "resource": {
-                // recurso Practitioner
+                // Recurso Practitioner
             },
             "request": {
                 "method": "POST",
-                "url": "Practtioner/pra-001"
+                "url": "Location"
             }
+        },
         },
         {
             "fullUrl": "urn:uuid:952a86d6-e253-46f9-87c1-d3cd5505b46a",
@@ -30,37 +31,61 @@
             },
             "request": {
                 "method": "POST",
-                "url": "Location/loc-001"
+                "url": "Location"
             }
         },
         {
             "fullUrl": "urn:uuid:f980b02b-3754-442d-9a6c-de0fc7921493",
             "resource": {
-                // recurso Encounter
+                "resourceType": "Encounter",
+                "id": "enc-001",
+                "status": "in-progress",
+                "class": [
+                    {
+                        "coding": [
+                            {
+                                "code": "AMB",
+                                "system": "https://terminology.hl7.org/5.1.0/CodeSystem-v3-ActCode.html",
+                                "display": "Ambulatory"
+                            }
+                        ]
+                    }
+                ],
+                "priority": {
+                    "coding": [
+                        {
+                            "code": "R",
+                            "display": "routine",
+                            "system": "http://terminology.hl7.org/CodeSystem/v3-ActPriority"
+                        }
+                    ]
+                },
+                "subject": {
+                    "reference": "urn:uuid:d9cfb896-0360-49e6-acaf-d12035ab594b",
+                    "display": "Olivia Herrera Andrade"
+                },
+                "participant": [
+                    {
+                        "actor": {
+                            "reference": "urn:uuid:e421a9b3-8375-49b3-9424-302f1f7da773",
+                            "display": "Franco Moreno Pineda"
+                        }
+                    }
+                ],
+                "location": [
+                    {
+                        "location": {
+                            "reference": "urn:uuid:952a86d6-e253-46f9-87c1-d3cd5505b46a",
+                            "display": "Centro Médico Las Aguilas"
+                        }
+                    }
+                ],
+                "plannedStartDate": "2023-06-06T17:15:00.000Z"
             },
             "request": {
                 "method": "POST",
-                "url": "Encounter/enc-001"
-            }
-        },
-        {
-            "fullUrl": "urn:uuid:aa600a87-c9db-49df-953d-8e8f6e53849e",
-            "resource": {
-                // recurso DiagnosticReport
-            },
-            "request": {
-                "method": "POST",
-                "url": "DiagnosticReport/dia-001"
-            }
-        },
-        {
-            "fullUrl": "urn:uuid:871c1ab7-e971-44cb-83b8-887fdb61b7ed",
-            "resource": {
-                // recurso Observation
-            },
-            "request": {
-                "method": "POST",
-                "url": "Observation-001"
+                "url": "Encounter"
             }
         }
-    }
+    ]
+}
