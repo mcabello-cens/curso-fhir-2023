@@ -130,3 +130,14 @@ Vía oral"	|
 ## 3. Generar el modelo de recursos ##
 
 ![Modelo de Recursos](https://github.com/mcabello-cens/curso-fhir-2023/blob/main/clinfhir/modelo-clinfhir.png)
+
+
+## 4. Recursos de apoyo ##
+
+Documentación del Servidor HAPI FHIR [https://hapifhir.io/]
+
+Repositorio del servidor: [https://github.com/hapifhir/hapi-fhir-jpaserver-starter]
+
+CLinfhir [http://clinfhir.com/]
+
+
